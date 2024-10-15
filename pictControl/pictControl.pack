@@ -1,0 +1,13 @@
+﻿#include @"pictControl\pictControl.ph"
+
+#requires @"pictControl\pictControl.ctl"
+
+% privately used packages
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\gui\controls\controlSupport\controlSupport.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+% private classes
+% implementations
+#include @"pictControl\pictControl.pro"

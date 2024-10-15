@@ -1,0 +1,42 @@
+﻿#requires @"MainForm\MainForm.frm"
+
+% own pack
+#include @"MainForm\MainForm.ph"
+
+% privately used packages
+#include @"pfc\gui\controls\integerControl\integerControl.ph"
+#include @"pfc\gui\controls\listViewControl\listViewControl.ph"
+#include @"pictControl\pictControl.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\math\math.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\application\Exe\exe.ph"
+#include @"testdb\testdb.ph"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\controls\checkButton\checkButton.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"aboutDialog\aboutDialog.ph"
+#include @"pfc\core.ph"
+#include @"pfc\gui\commands\command\Command.ph"
+#include @"pfc\gui\controls\messageControl\messageControl.ph"
+#include @"pfc\gui\controls\navigationOverlay\navigationOverlay.ph"
+#include @"pfc\gui\controls\ribbonControl\ribbonControl.ph"
+#include @"pfc\gui\controls\ribbonControl\ribbonDesignerDlg\ribbonDesignerDlg.ph"
+#include @"pfc\gui\controls\statusBarControl\statusBarControl.ph"
+#include @"pfc\gui\documentWindow\documentWindow.ph"
+#include @"pfc\gui\gdiplus\gdiplus.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\gui\toolTip\toolTip.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+
+% private interfaces
+#include @"MainForm\MainForm.i"
+
+% private classes
+#include @"MainForm\MainForm.cl"
+
+% implementations
+#include @"MainForm\MainForm.pro"
